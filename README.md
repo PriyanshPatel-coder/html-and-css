@@ -1,38 +1,16 @@
 # HTML and CSS Practice
 
-I have practiced HTML and CSS using all the HTML and CSS files in this folder.
+This repository currently contains my practice code for HTML and CSS. I have learned to create and style various web elements using the files in this folder.
 
-## Contents
+## What I have Learnt
 
-- **HTML Files**: `index.html`, `dropdown.html`, `page1.html` - `page5.html`
-- **CSS Files**: `style.css`, `style1.css`, `style2.css`, `navbar.css`, `dropdown.css`
+- **HTML Structures**: Creating tables, forms with various input types (text, password, email, radio buttons), and linking pages.
+- **CSS Styling**: Styling text, buttons, backgrounds, and creating specific components like navigation bars and dropdown menus.
+- **Page Layout**: Structuring pages with headers, bodies, and semantic tags.
 
----
+## Files
 
-## Utilities
-
-### Image Resizer Script
-
-A simple bash project to resize images to a specific target file size (in KB) using ImageMagick. Designed for Kali Linux.
-
-#### Files
-
-- `install_dependencies.sh`: Installs ImageMagick.
-- `resize_image.sh`: The main script to resize images.
-
-#### Usage
-
-1.  **Install Dependencies**:
-    ```bash
-    sudo ./install_dependencies.sh
-    ```
-
-2.  **Resize an Image**:
-    ```bash
-    ./resize_image.sh <input_image> <target_size_kb>
-    ```
-    
-    Example: reduce `photo.jpg` to 250KB:
-    ```bash
-    ./resize_image.sh photo.jpg 250
-    ```
+- `index.html`: Main practice file covering tables, forms, and basic styling.
+- `dropdown.html`: Implementation of a dropdown menu.
+- `page1.html` - `page5.html`: Additional practice pages.
+- `style.css`, `navbar.css`, `dropdown.css`: CSS files for styling different components.
