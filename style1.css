@@ -1,0 +1,68 @@
+
+
+-->
+#img1{
+    float: left;
+    margin: 10px;
+}
+#img2{
+    float: right;
+    margin: 10px;
+}
+
+
+
+button a:link{
+    color:red;
+}
+button a:visited{
+    color:grey;
+}
+button a:hover{
+    color:gold;
+    font-size: 1.1em;
+}
+button a:active{
+    color:green;
+}
+li:hover{
+    color: red;
+}
+li:not(:hover){
+    color:green
+}
+#greeting p{
+    background-color: blue;
+    display: none;
+    padding: 10px;
+    margin: 10px;
+}
+#greeting:hover p{
+    display: block;
+}
+h1::first-letter{
+    font-size: 2em;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    background-color: red;
+    color: green;
+}
+#fruit li::before{
+    content:"✔️";
+}
+#apple::after{
+    content:"🍎";
+}
+#orange::after{
+    content:"🍊";
+}
+#banana::after{
+    content:"🍌";
+}
+

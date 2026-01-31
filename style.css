@@ -1,0 +1,22 @@
+h1{
+    text-shadow: 2px 3px 1px red;
+}
+.box{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    
+}
+#box1{
+    background-color: red;
+    margin-left: auto;
+}
+#box2{
+    background-color: green;
+}
+body{
+    background-image: url("test_image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
